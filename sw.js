@@ -1,11 +1,11 @@
 const cacheName = "app-v1";
 const filesToCache = [
   "/",
-  "./index.html",
-  "./styles/style.css",
-  "./scripts/script.js",
-  "./assents/personagens/Ativo 1.png",
-  "./assents/personagens/Ativo 6.png",
+  "/index.html",
+  "/styles/style.css",
+  "/scripts/script.js",
+  "/assents/personagens/Ativo 1.png",
+  "/assents/personagens/Ativo 6.png",
 ];
 
 self.addEventListener("install", (e) => {

@@ -2,11 +2,11 @@ const btn_criar = document.querySelector("#btn_criar");
 const btn_entrar = document.querySelector(".entrar");
 
 btn_criar.addEventListener("click", () => {
-  location.href = "/pages/criar perfil/index.html";
+  location.href = "../pages/criar perfil/index.html";
 });
 
 btn_entrar.addEventListener("click", () => {
-  location.href = "/pages/login/index.html";
+  location.href = "../pages/login/index.html";
 });
 
 if ("serviceWorker" in navigator) {

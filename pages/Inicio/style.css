@@ -1,0 +1,56 @@
+@import url('../../styles/style.css');
+
+body {
+  
+
+  text-align: center;
+
+  gap: 4%;
+
+  img {
+    margin-top: 30%;
+    width: 250px;
+  }
+
+  div {
+    width: 80%;
+
+    h3 {
+      font-weight: bold;
+      font-size: 19px;
+      color: #385a64;
+    }
+  }
+}
+
+.btn-style {
+  width: 189px;
+  height: 55px;
+  margin-bottom: 5%;
+  border-radius: 50px;
+  font-weight: bold;
+  background: none;
+}
+
+.entrar {
+  background: #617c83;
+  font-size: 22px;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.entrar:active {
+  transform: scale(0.9);
+}
+
+.criar {
+  border: 1px solid #617c83;
+  color: #617c83;
+  font-size: 19px;
+  transition: 0.3s;
+}
+
+.criar:active {
+  transform: scale(0.9);
+}

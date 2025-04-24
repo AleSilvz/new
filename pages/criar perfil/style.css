@@ -1,0 +1,77 @@
+@import url("../../styles/style.css");
+
+.name {
+  color: #617c83;
+  margin-top: 20%;
+}
+
+.senha {
+  color: #617c83;
+}
+
+.input {
+  width: 291px;
+  height: 41px;
+
+  border-radius: 50px;
+  border: 1px solid #617c83;
+  outline: none;
+
+  font-size: 1.5rem;
+  padding-left: 15px;
+}
+
+.es {
+  color: #617c83;
+  margin-top: 5%;
+}
+
+.personagens {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 3%;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.select {
+    transform: scale(1.25);
+}
+
+.btn-style {
+  width: 189px;
+  height: 55px;
+  margin-bottom: 5%;
+  border-radius: 50px;
+  font-weight: bold;
+  background: none;
+}
+
+.criar {
+  background: #617c83;
+  font-size: 22px;
+  border: none;
+  color: #fff;
+  margin-top: 10%;
+  transition: 0.3s;
+}
+
+.criar:active {
+  transform: scale(0.9);
+}
+
+#btn_Criar {
+  width: 189px;
+  height: 55px;
+  margin-bottom: 5%;
+  border-radius: 50px;
+  font-weight: bold;
+  background: none;
+}
